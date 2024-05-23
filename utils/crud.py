@@ -21,7 +21,7 @@ def search_user(users: list) -> None:
 def remove_user(users)-> None:
     kogo_szukasz=input("Kogo szukasz: ")
     for user in users:
-        if user['name']==kogo_szukasz:
+        if user['name'] == kogo_szukasz:
             users.remove(user)
 
 def update_user(users)-> None:
